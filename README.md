@@ -24,12 +24,6 @@ terraform plan
 terraform apply
 ```
 
-## Destroy
-
-```bash
-bash destroy.sh
-```
-
 ## Files
 
 | File | Description |
@@ -37,7 +31,6 @@ bash destroy.sh
 | `main.tf` | VPC module configuration |
 | `ec2.tf` | EC2 instance, security group, AMI lookup |
 | `install.sh` | User data script (Docker, kubectl, Terraform) |
-| `destroy.sh` | Cleanup script (removes VPC endpoints before destroy) |
 
 ## Notes
 
