@@ -1,0 +1,15 @@
+# Keys
+*.pem
+*.key
+*.pub
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+
+# Environment variables
+.env
+*.auto.tfvars
